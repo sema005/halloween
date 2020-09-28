@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    max-height: 100vh;
+}
+.background {
+    background-image: url("./img/halloween.png");
+    height: 100vh;
+    background-size: cover;
+    object-fit: center;
+    background-position: center;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Liu Jian Mao Cao', sans-serif;
+}
+
+#witch, #witch2 {
+    width: 100px;
+    height: 100px;
+    animation: witch 7s forwards linear;;
+}
+
+.background img{
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+    position: absolute;
+}
+
+#witch2 img{
+    transform: rotate3d(1,100,1,180deg);
+}
